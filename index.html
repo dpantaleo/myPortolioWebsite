@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Engineering Portfolio</title>
-    <style>
-        .menu {
-            float: left;
-            width: 25%
-            border: none;
-        }
-        .content {
-            float: left;
-            width: 75%;
-            border: none;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        div#root {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-        }
-        div#root > iframe {
-        height: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Engineering Portfolio</title>
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 25%;
+    border: none;
+}
+
+.right {
+    width: 75%;
+    border: none;
+}
+</style>
+
 </head>
+
 <body>
-    <div class="website-container">
-        <iframe class="menu" src="maincontents.html"></iframe>
-        <iframe class="content" src="mainpage.html"></iframe>
-    </div>
+
+<div class="container">
+    <iframe class="left" src="maincontents.html"></iframe>
+    <iframe class="right" src="mainpage.html"></iframe>
+</div>
+
 </body>
 </html>
