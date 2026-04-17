@@ -17,22 +17,43 @@
             color: #ff0000;
             width: 100%;
             display: flex;
-            width: 100vh;
+            width: 100vw;
             line-height: 0px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .date {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .headerImg {
+            height: 450px;
+            width: 600px;
+        }
+        .bodyImg {
+            height: 450px;
+            width: 600px;
         }
     </style>
 </head>
 <body>
     <h1>Title of Project</h1>
-    <p>There will be an image here.</p>
+    <img src="cats1.jpg" alt="Picture of two cats." class="headerImg">
+    <p class="date">Page created DD MMMM, YYYY.</p>
+    <p class="date">Last updated DD MMMM, YYYY.</p>
     <br>
 
-    <table><tr><td><p>Divider section</p></td></tr></table>
+    <table><tr><td><h2>Divider section</h2></td></tr></table>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Alias aliquid consectetur dolorum ducimus earum esse eum
         harum impedit incidunt iure magnam mollitia nulla possimus
         sapiente, sit, tempora temporibus, veritatis vitae.</p>
-    <p>Probably another image.</p>
+    <img src="cats2.jpg" alt="Another picture of two cats." class="bodyImg">
 </body>
 </html>
