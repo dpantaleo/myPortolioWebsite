@@ -12,12 +12,13 @@
             text-align: center;
             font-weight: normal;
         }
+        table {
+            width: 100%;
+        }
         td {
             background-color: #270000;
             color: #ff0000;
-            width: 100%;
             display: flex;
-            width: 100vw;
             line-height: 0px;
         }
         h2 {
@@ -32,28 +33,28 @@
             margin-right: auto;
         }
         .headerImg {
-            height: 450px;
-            width: 600px;
+            width: 60%;
         }
         .bodyImg {
-            height: 450px;
-            width: 600px;
+            width: 60%;
         }
     </style>
 </head>
 <body>
-    <h1>Title of Project</h1>
-    <img src="cats1.jpg" alt="Picture of two cats." class="headerImg">
-    <p class="date">Page created DD MMMM, YYYY.</p>
-    <p class="date">Last updated DD MMMM, YYYY.</p>
-    <br>
+    <div style="margin: 10px 20px;">
+        <h1>Title of Project</h1>
+        <img src="cats1.jpg" alt="Picture of two cats." class="headerImg">
+        <p class="date">Page created DD MMMM, YYYY.</p>
+        <p class="date">Last updated DD MMMM, YYYY.</p>
+        <br>
 
-    <table><tr><td><h2>Divider section</h2></td></tr></table>
+        <table><tr><td><h2>Divider section</h2></td></tr></table>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Alias aliquid consectetur dolorum ducimus earum esse eum
-        harum impedit incidunt iure magnam mollitia nulla possimus
-        sapiente, sit, tempora temporibus, veritatis vitae.</p>
-    <img src="cats2.jpg" alt="Another picture of two cats." class="bodyImg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Alias aliquid consectetur dolorum ducimus earum esse eum
+            harum impedit incidunt iure magnam mollitia nulla possimus
+            sapiente, sit, tempora temporibus, veritatis vitae.</p>
+        <img src="cats2.jpg" alt="Another picture of two cats." class="bodyImg">
+    </div>
 </body>
 </html>
